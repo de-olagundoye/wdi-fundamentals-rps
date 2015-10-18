@@ -68,12 +68,12 @@ function playToFive() {
 
             if (turnWinner === 'player') {
                     playerWins += 1;
-                    console.log('You chose:' + playerTurn + 'Computer chose:' + computerTurn);
-                    console.log('Score:' + playerWins + 'to' + computerWins);
+                    console.log('You chose: ' + playerTurn + ' ' + 'and Computer chose: ' + computerTurn);
+                    console.log('Score: ' + playerWins + ' to ' + computerWins);
             } else if (turnWinner === 'computer') {
                     computerWins += 1;
-                    console.log('You chose:' + playerTurn + 'Computer chose:' + computerTurn);
-                    console.log('Score:' + playerWins + 'to' + computerWins);
+                    console.log('You chose: ' + playerTurn + ' ' + 'and Computer chose: ' + computerTurn);
+                    console.log('Score: ' + playerWins + ' to ' + computerWins);
                     }
                 }
 
